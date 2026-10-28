@@ -1,0 +1,203 @@
+{
+  "version": 1,
+  "skills": {
+    "agent-browser": {
+      "source": "vercel-labs/agent-browser",
+      "sourceType": "github",
+      "skillPath": "skills/agent-browser/SKILL.md",
+      "computedHash": "a8853bcca9385c4998ee2bfbe4139b52b51596dc2f45414a9ee712e3c0827cfd"
+    },
+    "clean-refactor": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "clean-refactor/SKILL.md",
+      "computedHash": "b0804c392c528b7227d73b3c09de48e80cec20c0741c5c991b30794006baf2eb"
+    },
+    "cleanup-useeffect": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "cleanup-useeffect/SKILL.md",
+      "computedHash": "8da4a252f0152d09e0dd90cf4b7c318eca51684047d701b306644c48ee019844"
+    },
+    "commit": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "commit/SKILL.md",
+      "computedHash": "2807a5b957ce6c27acd058d682c9e7aad3c1bd33b1925f7b43b9b76ba018f1b1"
+    },
+    "configure-opencode-custom-providers": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "configure-opencode-custom-providers/SKILL.md",
+      "computedHash": "a15d1f8677fdd927aeca556ad99b1e54ecec2bc93c92512a98d50d5f43fed8e2"
+    },
+    "configuring-oxlint": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "configuring-oxlint/SKILL.md",
+      "computedHash": "ef68baf2ed0e32568026870606e492d97233335a4707fbd82e4cfa6cf72e20a9"
+    },
+    "developing-agents": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "developing-agents/SKILL.md",
+      "computedHash": "5ed28b04cc02048866f0166366dc2c6dd79ee76039c9289d77529d0a4b8aeb8c"
+    },
+    "explain-code": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "explain-code/SKILL.md",
+      "computedHash": "f0c024d94961cd46ca4c4696f3373cc2b444302d8ca43b9c2a149fd712f3b4dc"
+    },
+    "figma": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/figma/SKILL.md",
+      "computedHash": "898884228cf905eedc1aac9d5d059f28c66c711ec4b950f627ec3d495c304da3"
+    },
+    "frontend-debugging": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "frontend-debugging/SKILL.md",
+      "computedHash": "7f4a5876c4039af5af24e5e97bf641fafec2804a3127b7ac029df32f502402af"
+    },
+    "generalize": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "generalize/SKILL.md",
+      "computedHash": "6d9ba7a5c72bcecb7cdecfad98db06c961e3fe35466cb13c5c64424f227cacfc"
+    },
+    "git-branch-linearizing": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "git-branch-linearizing/SKILL.md",
+      "computedHash": "69b99bdf683d1c83ad4c53af946a1cd01a9ce92074ddff57d231b596fcfd4dd8"
+    },
+    "git-cc": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "git-cc/SKILL.md",
+      "computedHash": "0209d1c40f75b2c939f47e398e3677a6e3c0feefccc7d1ce03e8f7705f4aea1d"
+    },
+    "hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes/SKILL.md",
+      "computedHash": "126f3b0588ba564c4d5767d12357eebda38c006a375015eb4a563c23337ce6f9"
+    },
+    "hyperframes-cli": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes-cli/SKILL.md",
+      "computedHash": "3717d873cba9db11041f1b11e3e83d2bef78e513134f7d153fe487ca5bd65db8"
+    },
+    "hyperframes-registry": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/hyperframes-registry/SKILL.md",
+      "computedHash": "73d399bf84e34d7868ff473c0b9f5971d52ed5aadb453384116207890b6750cd"
+    },
+    "iso-19450": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "iso-19450/SKILL.md",
+      "computedHash": "681189493e855620311bb8b207d96a7dd19e2c800c01218a29147405dd638d6b"
+    },
+    "iso-42010": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "iso-42010/SKILL.md",
+      "computedHash": "f9120fbf25125b8aa68558189892e69bede52f33979c54579e3fb62a7b304c29"
+    },
+    "learn-from-session": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "learn-from-session/SKILL.md",
+      "computedHash": "f22d280d319b4b38a868a9a4d150546dd738c71979faa362fd1e9aeae5702eb7"
+    },
+    "manual-frontend-qa": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "manual-frontend-qa/SKILL.md",
+      "computedHash": "9c52536532f2d835e3c2bb9482f450dd584f703dc2f87d70bfdd906be9277091"
+    },
+    "media-use": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/media-use/SKILL.md",
+      "computedHash": "269c7c7da824e004e6cf81069101808ba1f9ee0f2c655cd8bf86ecf42c7338c9"
+    },
+    "migrate-radix-to-base": {
+      "source": "shadcn-ui/ui",
+      "sourceType": "github",
+      "skillPath": "skills/migrate-radix-to-base/SKILL.md",
+      "computedHash": "4fdc31bf287f674ba6bf91a648120f7b34cd7ef370f998f2cc116fed067789c5"
+    },
+    "opencode-cli": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "opencode-cli/SKILL.md",
+      "computedHash": "e1230d38d0532a9c39a48931c0b66109ba4c0c3e7b6026f0a3399f810bf5e2a5"
+    },
+    "remotion-to-hyperframes": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/remotion-to-hyperframes/SKILL.md",
+      "computedHash": "35f4cdb6e369a58bfb3683bc242a0391538c1e407fd933bbdf25b9c761253f08"
+    },
+    "shadcn": {
+      "source": "shadcn-ui/ui",
+      "sourceType": "github",
+      "skillPath": "skills/shadcn/SKILL.md",
+      "computedHash": "7859e9a064940a1a0010c992b63e4633c4f5f39ed367a23c16f24029816b1703"
+    },
+    "skill-compression": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "skill-compression/SKILL.md",
+      "computedHash": "c5d3e5b8f9ca80706afcd48b79393c0355db3c7aa9d289f1056b92989753e469"
+    },
+    "skill-fails": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "skill-fails/SKILL.md",
+      "computedHash": "efe020ba9dc06ab2c50e037243079f91ccd8abf9866a7a5bf08b47428673aea4"
+    },
+    "skill-modulize": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "skill-modulize/SKILL.md",
+      "computedHash": "004043d03e02ee083469fc86b6aaa5acd1daac37c0511444691ffacd0e6e7f48"
+    },
+    "slideshow": {
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "skillPath": "skills/slideshow/SKILL.md",
+      "computedHash": "2cce5d13b634a742a25e62a1d78366ee97d0bf51a708eb4746e44a0579a3b6a7"
+    },
+    "slop-design": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "slop-design/SKILL.md",
+      "computedHash": "d85539748b26ca9f457c6237a9ec263c6690292e80676f4612c83270d488287a"
+    },
+    "slop-tests": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "slop-tests/SKILL.md",
+      "computedHash": "af9b6d8921b9a0f8d6293808548487f664429abfeda0086e5af7ca0ae059a835"
+    },
+    "ui-style-consistency": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "ui-style-consistency/SKILL.md",
+      "computedHash": "c403856883539e377482a30f40e49285623db365964509d3ee82f192ed2f1b0b"
+    },
+    "writing-adrs": {
+      "source": "Arcadi4/skills",
+      "sourceType": "github",
+      "skillPath": "writing-adrs/SKILL.md",
+      "computedHash": "5c30d06c8e5555193bbc8f55b23b875c8912ec252301bdadd8c1aca6051d8792"
+    }
+  }
+}
