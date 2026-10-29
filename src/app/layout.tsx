@@ -1,27 +1,23 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Source_Serif_4 } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const serif = Source_Serif_4({
+  variable: "--font-source-serif",
   subsets: ["latin"],
 });
 
 export const metadata: Metadata = {
-  title: "ResumeNav",
-  description: "For College Application",
+  title: "Bryan Fan — Supplementary Materials",
+  description:
+    "Research documents, projects, websites, and honors supplementing Bryan Fan's application.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
   return (
-    <html lang="en" className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}>
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="en" className={`${serif.variable} antialiased`}>
+      <body>{children}</body>
     </html>
   );
 }
