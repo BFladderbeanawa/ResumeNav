@@ -27,6 +27,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import pathlib
 import re
 import sys
@@ -95,9 +96,13 @@ def link_rects(cells, start: int, end: int) -> list[pymupdf.Rect]:
     ]
 
 
-def uri_links(document: pymupdf.Document) -> list[dict]:
+def uri_links(document: pymupdf.Document) -> list[tuple[pymupdf.Page, dict]]:
+    """Every /URI annotation as (owning page, link dict)."""
     return [
-        link for page in document for link in page.get_links() if link["kind"] == pymupdf.LINK_URI
+        (page, link)
+        for page in document
+        for link in page.get_links()
+        if link["kind"] == pymupdf.LINK_URI
     ]
 
 
@@ -139,7 +144,7 @@ def main() -> int:
     existing = uri_links(document)
 
     if args.check:
-        present = {link["uri"] for link in existing}
+        present = {link["uri"] for _, link in existing}
         missing = [uri for uri in targets if uri not in present]
         if missing:
             print(f"{pdf}: missing {len(missing)} link(s)", file=sys.stderr)
@@ -153,15 +158,24 @@ def main() -> int:
         print(f"{pdf}: already annotated ({len(existing)} links); pass --force to rebuild")
         return 0
 
-    for link in existing:
-        document[link["page"]].delete_link(link)
+    # Replacing a foreign link layer leaves its annotations unreachable, and an
+    # incremental save would keep them as orphans; rewrite so nothing stale ships.
+    repair = bool(existing)
+    for page, link in existing:
+        page.delete_link(link)
 
     placed = []
     for page in document:
         placed.extend(place(page, targets))
 
-    document.saveIncr()
-    document.close()
+    if repair:
+        tmp = pdf.with_suffix(".tmp.pdf")
+        document.save(tmp, garbage=4, deflate=1, use_objstms=0)
+        document.close()
+        os.replace(tmp, pdf)
+    else:
+        document.saveIncr()
+        document.close()
 
     for uri, count in placed:
         print(f"{uri} -> {count} rect(s)")

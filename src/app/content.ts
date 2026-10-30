@@ -23,7 +23,7 @@ export const profile = {
   purpose:
     "Supplementary materials for the Additional Information section of my application: research documents, projects, websites, and honors, with links to the originals.",
   contacts: [
-    { label: "fansw.bryan2023@gdhfi.com", href: "mailto:fansw.bryan2023@gdhfi.com" },
+    { label: "fannbryan@gmail.com", href: "mailto:fannbryan@gmail.com" },
     { label: "github.com/BFladderbeanawa", href: "https://github.com/BFladderbeanawa" },
     { label: "kaggle.com/BFladderbean", href: "https://www.kaggle.com/BFladderbean" },
   ] satisfies LinkRef[],
