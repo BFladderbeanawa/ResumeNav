@@ -10,7 +10,9 @@
     "fmt": "vp fmt",
     "fmt:check": "vp fmt --check",
     "check": "vp check",
-    "test": "vp test"
+    "test": "vp test",
+    "pdf:links": "python scripts/pdf_links.py",
+    "pdf:links:check": "python scripts/pdf_links.py --check"
   },
   "dependencies": {
     "next": "16.4.3",
